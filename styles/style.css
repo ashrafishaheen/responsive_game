@@ -1,0 +1,90 @@
+.top_bar{
+	background:#192230;
+	color:#FFFFFF;
+	padding:5px 0;
+	
+}
+.social_icons{
+	margin-right:5px;
+	
+}
+.contact_info{
+	color:#FFFFFF;
+	font-size:16px;
+	
+	
+}
+.my_menu{
+	margin-top:27px;
+	
+	
+}
+.my_menu .navbar-default{
+	border:none;
+	background:none;
+}
+.my_menu .navbar-nav .active a, .my_menu .navbar-nav .active a:hover{
+	background:#192230;
+	color:#FFFFFF;
+}
+.my_menu .navbar-nav li a:hover{
+	background:#192230;
+	color:#FFFFFF;
+}
+.games{
+	margin-top:40px;
+}
+.our_games{
+	background:radial-gradient(circle, #29628A, #102333); 
+	padding:25px 0;
+	
+}
+.our_games h1{
+	color:#FFFFFF;
+	
+}
+.our_games .top_margin{
+	margin-top:36px;
+}
+.footer{
+	background:#000000;
+	padding:20px 0;
+	color:#FFFFFF;
+	
+}
+.footer p{
+	margin-top:5px;
+	margin-bottom:5px;
+	color:#FFFFFF;
+}
+.footer ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.footer ul li a{
+	color:#FFFFFF;
+	font-size:17px;
+}
+
+@media(max-width:790px){
+.our_games [class*="col-"]{
+	margin-bottom:36px;
+}
+#side_img{
+	margin-bottom:30px;
+	float:center;
+}
+
+}
+
+
+
+
+
+
+@media(max-width:1200px){
+	.my_menu .pull-right{
+		float:none !important;
+	}
+}
