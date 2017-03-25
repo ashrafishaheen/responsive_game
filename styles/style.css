@@ -66,6 +66,15 @@
 	color:#FFFFFF;
 	font-size:17px;
 }
+@media(max-width:700px){
+	body h1{font-size:50px;
+		
+	}
+	body h2{ font-size:40px;}
+	body p{font-size:25px;}
+	body a{ font-size:25px;}
+	body ul li{font-size:25px;}
+}
 
 @media(max-width:790px){
 .our_games [class*="col-"]{
